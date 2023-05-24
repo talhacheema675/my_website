@@ -18,16 +18,16 @@ export default function Home() {
         </div>
       </div>
       <div className='flex flex-col w-full h-screen bg-blue-500'>
-        <div className='ml-40 mt-40  w-1/2 h-min text-xl text-black font-bold'><p className='p-30'>Hello I am Talha Ashraf Cheema. A graduate of Comsats University and 5 years experience in web development. I am the best in the market and completed more than 100 projects. You can hire me if you are really interested in maintaining quality</p></div>
-        <div className='ml-40 mt-4'><button className='bg-purple-800 rounded-3xl w-24 h-10 text-lg font-bold'>Hire Me</button></div>
+        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-40 md:w-1/2 sm:2/3 h-min text-xl text-black font-bold '><p className='p-30'>Hello I am Talha Ashraf Cheema. A graduate of Comsats University and 5 years experience in web development. I am the best in the market and completed more than 100 projects. You can hire me if you are really interested in maintaining quality</p></div>
+        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-4'><button className='bg-purple-900 rounded-3xl w-36 h-10 text-lg font-bold hover:bg-gray-900'>Hire Me</button></div>
       </div>
 
 
 
 
- <div className='flex lg: flex-row md:flex-row sm:flex-col sm:justify-center'> 
-      <div className=' flex flex-col w-2/5  h-max bg-gray-700 text-white sm:w-full sm:p-20'>
-                <div className=' w-full h-96 flex '><Image src="/111.jpg" alt='my_image ' width={1000} height={100} className='w-full h-full rounded-full'/> </div> 
+ <div className='flex md:flex-row sm:flex-col md:justify-start sm:justify-center'> 
+      <div className=' flex flex-col  md:w-2/5 sm:w-full  h-max bg-gray-700 text-white '>
+                <div className=' w-full h-96  '><Image src="/1112.jpg" alt='my_image ' width={1000} height={100} className='w-full h-full md:rounded-full sm: rounded-3xl'/> </div> 
                 <div className='text-white h-max w-full text-center'>
                     <h1 className='text-5xl text-yellow-500 font-bold'>Talha Ashraf</h1>
                     <h2 className='text-xl text-400 font-bold my-4'>Software Engineer</h2>
@@ -70,7 +70,7 @@ export default function Home() {
       </div>
  </div>
  <div className='flex flex-row  justify-center text-white bg-gray-900'><h1 className='text-3xl font-bold underline decoration-3 p-2'>Exceptional talents</h1></div>
- <div id="2" className='grid grid-cols-4  sm:grid-cols-2 bg-white  gap-2 w-full h-max text-gray-100'>
+ <div id="2" className='grid md:grid-cols-4  sm:grid-cols-2 bg-white  gap-2 w-full h-max text-gray-100'>
       <div className='relative  w-full h-full'>
                   <div><Image src="/3333.gif" alt='my_image ' width={1000} height={100} className='w-full h-80 hover:blur'/> </div>
                   <div className='absolute top-0 left-0 text-center'> 
