@@ -9,7 +9,7 @@ export default function Home() {
 <div className='parent bg-white'>
     <div id="0" className='flex flex-row w-full h-16 bg-blue-500'>
         <div className='p-2'><Image src="/abc12.jpg" alt="My Image" width={50} height={50} className='grayscale'/> </div>
-        <div className='absolute top-0 right-0 flex md:gap-8 sm:gap-6 gap-2 px-4 py-4 text-white font-bold  md:text-lg sm:text-base text-sm '>
+        <div className='absolute top-0 right-0 flex md:gap-8 sm:gap-6 gap-2 px-4 py-4 text-white font-bold  md:text-lg sm:text-base text-xs '>
                 <Link className='hover:text-black' href="#1">About</Link>
                  <Link className='hover:text-black' href="#1">Education</Link>
                   <Link className='hover:text-black' href="#0" ><h1>Home</h1></Link>
