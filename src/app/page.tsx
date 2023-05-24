@@ -25,8 +25,8 @@ export default function Home() {
 
 
 
- <div className='flex lg: flex-row md:flex-row sm:flex-col'> 
-      <div className=' left flex flex-col w-2/5  h-max bg-gray-700 text-white'>
+ <div className='flex lg: flex-row md:flex-row sm:flex-col sm:justify-center'> 
+      <div className=' flex flex-col w-2/5  h-max bg-gray-700 text-white sm:w-full sm:p-20'>
                 <div className=' w-full h-96 flex '><Image src="/111.jpg" alt='my_image ' width={1000} height={100} className='w-full h-full rounded-full'/> </div> 
                 <div className='text-white h-max w-full text-center'>
                     <h1 className='text-5xl text-yellow-500 font-bold'>Talha Ashraf</h1>
@@ -70,7 +70,7 @@ export default function Home() {
       </div>
  </div>
  <div className='flex flex-row  justify-center text-white bg-gray-900'><h1 className='text-3xl font-bold underline decoration-3 p-2'>Exceptional talents</h1></div>
- <div id="2" className='grid grid-cols-4 lg: grid-rows-1 md:grid-row sm:grid-rows-1 bg-white  gap-2 w-full h-max text-gray-100'>
+ <div id="2" className='grid grid-cols-4  sm:grid-cols-2 bg-white  gap-2 w-full h-max text-gray-100'>
       <div className='relative  w-full h-full'>
                   <div><Image src="/3333.gif" alt='my_image ' width={1000} height={100} className='w-full h-80 hover:blur'/> </div>
                   <div className='absolute top-0 left-0 text-center'> 
