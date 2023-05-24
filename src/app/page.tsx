@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
 <div className='parent bg-white'>
-    <div className='flex flex-row w-full h-16 bg-blue-500'>
+    <div id="0" className='flex flex-row w-full h-16 bg-blue-500'>
         <div className='p-2'><Image src="/abc12.jpg" alt="My Image" width={50} height={50} className='grayscale'/> </div>
         <div className='absolute top-0 right-0 flex gap-8 px-4 py-4 text-white font-bold'>
                 <Link className='hover:text-black' href="#1">About</Link>
                  <Link className='hover:text-black' href="#1">Education</Link>
-                  <Link className='hover:text-black' href="https://www.google.com/?&bih=694&biw=1517&rlz=1C1RLNS_enPK923PK923&hl=en" ><h1>Home</h1></Link>
+                  <Link className='hover:text-black' href="#0" ><h1>Home</h1></Link>
                   <Link className='hover:text-black' href="#2">Skills</Link>
                     <Link className='hover:text-black' href="#3">Contact me</Link>
         </div>
