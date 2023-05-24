@@ -9,7 +9,7 @@ export default function Home() {
 <div className='parent bg-white'>
     <div id="0" className='flex flex-row w-full h-16 bg-blue-500'>
         <div className='p-2'><Image src="/abc12.jpg" alt="My Image" width={50} height={50} className='grayscale'/> </div>
-        <div className='absolute top-0 right-0 flex gap-8 px-4 py-4 text-white font-bold'>
+        <div className='absolute top-0 right-0 flex md:gap-8 sm:gap-6 gap-2 px-4 py-4 text-white font-bold'>
                 <Link className='hover:text-black' href="#1">About</Link>
                  <Link className='hover:text-black' href="#1">Education</Link>
                   <Link className='hover:text-black' href="#0" ><h1>Home</h1></Link>
@@ -18,14 +18,14 @@ export default function Home() {
         </div>
       </div>
       <div className='flex flex-col w-full h-screen bg-blue-500'>
-        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-40 md:w-1/2 sm:2/3 h-min text-xl text-black font-bold '><p className='p-30'>Hello I am Talha Ashraf Cheema. A graduate of Comsats University and 5 years experience in web development. I am the best in the market and completed more than 100 projects. You can hire me if you are really interested in maintaining quality</p></div>
-        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-4'><button className='bg-purple-900 rounded-3xl w-36 h-10 text-lg font-bold hover:bg-gray-900'>Hire Me</button></div>
+        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-40 md:w-1/2 sm:2/3 ml-4 h-min text-xl text-black font-bold '><p className='p-30'>Hello I am Talha Ashraf Cheema. A graduate of Comsats University and 5 years experience in web development. I am the best in the market and completed more than 100 projects. You can hire me if you are really interested in maintaining quality</p></div>
+        <div className='md:ml-40 sm:ml-16 sm:mr-6 mt-4 ml-4 mr-2'><button className='bg-purple-900 rounded-3xl w-36 h-10 text-lg font-bold hover:bg-gray-900'>Hire Me</button></div>
       </div>
 
 
 
 
- <div className='flex md:flex-row sm:flex-col md:justify-start sm:justify-center'> 
+ <div className='flex md:flex-row sm:flex-col flex-col md:justify-start sm:justify-center'> 
       <div className=' flex flex-col  md:w-2/5 sm:w-full  h-max bg-gray-700 text-white '>
                 <div className=' w-full h-96  '><Image src="/1112.jpg" alt='my_image ' width={1000} height={100} className='w-full h-full md:rounded-full sm: rounded-3xl'/> </div> 
                 <div className='text-white h-max w-full text-center'>
